@@ -8,3 +8,4 @@ services:
     container_name: redis
     volumes:
       - ./redis.conf:/usr/local/etc/redis/redis.conf
+#      - /your/redis/path:/data
